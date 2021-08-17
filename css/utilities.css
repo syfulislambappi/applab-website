@@ -1,0 +1,137 @@
+/* Fonts */
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../fonts/Poppins.woff);
+}
+
+/* Colors */
+:root {
+    --main-color: #242f51;
+    --text-color: #616368;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+    line-height: 7.5rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+h2 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    line-height: 5rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+h3 {
+    font-size: 3.6rem;
+    margin: 0;
+    padding: 0;
+    line-height: 4.6rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+h4 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    line-height: 2.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    width: 17rem;
+    height: 5.7rem;
+    border-radius: 2.85rem;
+    outline: none;
+    border: none;
+    background-color: #2500f9;
+    font-size: 1.6rem;
+    line-height: 4.4rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Flex Styles */
+.flex {
+    display: flex;
+}
+
+/* Card Styles */
+
+.cards {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    max-width: 38.1rem;
+}
+
+.cards img {
+    max-width: 8.8rem;
+    margin-right: 2rem;
+}
+
+.cards h4 {
+    margin-bottom: 1rem;
+}
+
+.cards p {
+    margin: 0;
+}
